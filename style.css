@@ -53,7 +53,8 @@ html {
   body {
     margin: 0;
     font-size: 2.2rem;
-    background-color: var(--color-gray);
+    background-image: url(img/background.jpg);
+    background-repeat: repeat;
     z-index: 2;
   }
   
@@ -169,6 +170,12 @@ html {
   .panrec-card ul {
     text-align: left;
   }
+
+  .panrec-card a {
+    text-decoration: none;
+    color: var(--font-orange);
+    list-style: none;
+  }
   
   /* footer */
   footer {
@@ -208,9 +215,8 @@ html {
     margin: 150px auto;
     width: 80vw;
     align-self: center;
-    border: 2px solid black;
     border-radius: 2%;
-    background-color: #efefef;
+    background-color: #e0dede;
     font-size: 3rem;
   }
 
