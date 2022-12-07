@@ -1,3 +1,7 @@
+window.onbeforeunload = function(){
+    return 'Are you sure you want to leave?';
+  };
+
 const age = prompt("Ingrese su edad");
 const postalCode = prompt("Ingrese su código postal.")
 
