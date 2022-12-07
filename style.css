@@ -1,0 +1,222 @@
+html {
+    font-size: 10px;
+    font-family: calibri;
+    ;
+  }
+  
+  :root {
+    --color-gray: #eaf0f5;
+    --color-grayer-gray: #84898c;
+    --font-orange: #ff8900
+  }
+  
+  #page-wrapper {
+    position: relative;
+  }
+  
+  /** Header **/
+  
+  
+  header {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    z-index: 1; 
+    position: fixed;
+    top:0;
+    background-color: var(--color-grayer-gray);
+    font-size: 2rem;
+    color: white;
+  }
+  
+  #logo {
+    margin-right: 400px;
+    display: flex;
+    align-self: flex-start;
+    font-family: "Bebas Neue";
+  }
+  
+  #header-img {
+    width: 100px;
+    height: 100px;
+  }  
+  
+  /** Body **/
+  
+  
+  .container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  body {
+    margin: 0;
+    font-size: 2.2rem;
+    background-color: var(--color-gray);
+    z-index: 2;
+  }
+  
+  h2 {
+    color: var(--font-orange);
+  }
+  
+  #form {
+    margin: 100px auto 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  #email {
+    margin: 0 auto;
+    font-size: 2rem;
+    width: 25vw;
+    height: 30px;
+  }
+  
+  #submit {
+    margin: 20px auto;
+    font-size: 2rem;
+    width: 5em;
+    height: 2em;
+    background-color: #fafafa;
+  }
+  
+  #submit:hover {
+    transform: scale(1.07)
+  }
+  
+  #about {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-img {
+    width: 190px;
+    height: 160px;
+    margin-right: 80px;
+    align-self: center;
+  }
+  
+  #about-1, #about-2, #about-3 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .about-info {
+    display: flex; 
+    flex-direction: column;
+  }
+  
+  #in-action {
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+  }
+  
+  iframe { 
+    height: 50vw;
+    max-height: 400px;
+  }
+  
+  #recommended  h2{
+    text-align: center;
+  }
+
+  #shipping {
+    margin: 10px 39%;
+    font-size: 2rem;
+    height: 4em;
+    padding: 10px;
+    border: 2px solid black;
+    color: var();
+    border-radius: 2%;
+    background-color: #efefef;
+  }
+  
+  #shipping:hover {
+    transform: scale(1.07)
+  }
+  
+  #panrecs-container {
+    margin: 60px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .panrec-card { 
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 2%;
+    background-color: #efefef;
+  }
+  
+  .panrec-card:hover {
+    transform: scale(1.07)
+  }
+  
+  .panrec-card h4  {
+    color: var(--font-orange);
+  }
+  
+  .panrec-card ul {
+    text-align: left;
+  }
+  
+  /* footer */
+  footer {
+    margin: 50px auto 0;
+    padding: 10px;
+    width: 80vw;
+    background-color: var(--color-grayer-gray);
+    font-size: 2rem;
+    color: white;
+  }
+  
+  footer ul {
+    margin: 10px 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer li {
+    padding: 0 10px;    list-style: none;
+
+  }
+  
+  footer span {
+    padding: 0 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+   footer a {
+    color: white;
+    text-decoration: none;
+  }
+
+
+  /* About Page Table */
+  #about-table {
+    margin: 150px auto;
+    width: 80vw;
+    align-self: center;
+    border: 2px solid black;
+    border-radius: 2%;
+    background-color: #efefef;
+    font-size: 3rem;
+  }
+
+  .pfp {
+    margin-left: 40%;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+  }

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Bebas+Neue">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="javascript.js"></script>
+    <title>Pan Shop</title>
+</head>
+<body>
+  <div id="page-wrapper">
+   <header id="header"> 
+     <div id="logo">
+      <img  id="header-img" src="https://www.ajidesign.net/wp-content/uploads/BRO-015-Sarten-15-cm-Bruna-1200_ml.png">
+     <h1 id="panshop">Pan Shop </h1>
+     </div>
+     <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about">About Our Pans</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#in-action">See Our Pans In Action</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#recommended">Recommended Pans</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
+    
+    
+    
+  <div class="container">    
+      <form id="form">
+        <h2>Become A Pan Head</h2>
+        <p>
+          Please share your email adress with us to receive the latest in pan news
+        </p>
+          <input
+                 type="email"
+                 placeholder="Enter your email"
+                 id="email"
+                 name="email">
+                 </input> 
+          <input
+                 class="button"
+                 id="submit"
+                 type="submit"
+                 value="JOIN">               
+                 </input>
+          </form>
+    </div>
+    <div class="container">
+        <section  class="about" id="about">
+          <div id="about-1">
+            <img id="about-img1" class="about-img" src="https://cdn11.bigcommerce.com/s-jta5lqjn53/images/stencil/728x728/products/627/928/PSL3524I_2017_10_27_20_11_39_UTC__39179.1581348166.png?c=1">
+            <div id="about-info1" class="about-info">
+            <h2> Premium Materials</h2>
+        <p> Our pans are made with the highest-quality steel. You won´t get better pans anywhere else!</p>
+            </div>
+          </div>
+          <div class="about" id="about-2">
+            <img id="about-img2" class="about-img" src="https://www.commercialwashroomsltd.co.uk/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/m/5/m500hd_1.png">
+        <div id="about-info2" class="about-info">
+            <h2> Stainless Steel</h2>
+        <p> With stainless steel, our pans are highly resistant to corrosion and rust</p>
+            </div>
+          </div>
+          <div class="about" id="about-3">
+            <img id="about-img3" class="about-img" src="https://ae01.alicdn.com/kf/H723cab2cbad949168c2a95532070d21aG/Warranty-Return-Procedure.png_.webp">
+            <div id="about-info3" class="about-info">
+        <h2> Long-lasting Warranty </h2>
+              <p> Our pans will last you at least 3 years or you get your money back! </p>
+              </div>
+          </div>
+        </section>
+    </div>
+  <div class="container">
+        <section id="in-action">
+          <h2>
+            Here You Can See A Video From Our Associate Using One Of Our Pans
+          </h2>
+         <iframe 
+                 id="video"
+                 width="auto" 
+                 height="400"
+                 src="https://www.youtube.com/embed/AmC9SmCBUj4" 
+                 title="YouTube video player" 
+                 frameborder="0" 
+                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                 allowfullscreen
+                 ></iframe>
+          </section>
+    </div>
+    <div class="container">
+        <section id="recommended">
+            <h2>See Our Recommended Pans:</h2>
+            <input 
+                onclick="shippingCost()"
+                type="button"
+                id="shipping"
+                value="Calculate shipping cost">
+            </input>
+            <div id="panrecs-container">
+              <div class="panrec-card"
+                   id="panrec1">
+                <div class="panrec-info">
+                <h4> Standard Pan</h4>
+                  <div id="price-1"
+                       class="price"> $     
+                </div>
+                <ul>
+                  <li>- Stainless Steel</li>
+                  <li>- 3-Year Warranty</li>
+                  </ul>   
+                  </div>
+                </div>
+              <div class="panrec-card"
+                   id="panrec2">
+                <div class="panrec-info">
+                <h4> Premium Pan</h4>
+                  <div id ="price-2"
+                       class="price">$$
+                </div>
+                <ul>
+                  <li>- Stainless Steel</li>
+                  <li>- 3-Year Warranty</li>
+                  <li>- Custom-Made Handle</li>
+                  </ul>
+                  </div>
+                </div>
+              <div class="panrec-card"
+                   id="panrec3">
+                <div class="panrec-info">
+                <h4> Ultra Pan </h4>
+                  <div id="price-3"
+                       class="price"> $$$
+                </div>
+                  <ul>
+                  <li>- Top-Tier Stainless Steel</li>
+                  <li>- 4-Year Warranty</li>
+                  <li>- Entirely Custom-Made</li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+    </div>
+</body>
+<footer id="footer">
+    <ul>
+    <li><a href="about.html" target="_blank">About Us</a>
+        </li>
+    <li><a href="https://wa.me/543364604082">Contact Us</a>
+        </li>
+    </ul>
+    <span>&copy; Iván Martínez, Pan Shop 2022</span>
+</footer>
+</html>
+                
+                
+            
+                  
