@@ -11,8 +11,8 @@ if(age < 18) {
 
 function shippingCost() {
     if(postalCode == 2900) {
-        alert("El envio será gratis");
+        alert("Ya que usted es residente de San Nicolás de los Arroyos el envío será gratis");
     } else {
-        alert("El envio le costará $1000")
+        alert("El envio le costará $1000. Envío gratis disponible solo para residentes de San Nicolás de los Arroyos")
     }
 }
